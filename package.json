@@ -1,0 +1,29 @@
+{
+  "name": "eon-cmd-tools",
+  "version": "1.0.0",
+  "description": "Command line tools to interact with an Horizen EON Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "eon": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HorizenOfficial/eon-cmd-tools.git"
+  },
+  "author": "HorizenLabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HorizenOfficial/eon-cmd-tools/issues"
+  },
+  "homepage": "https://github.com/HorizenOfficial/eon-cmd-tools#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bent": "^7.3.12",
+    "node-fetch": "^2.7.0",
+    "request-promise": "^4.2.6",
+    "web3-utils": "^4.1.0"
+  }
+}
