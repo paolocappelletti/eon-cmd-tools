@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HorizenOfficial/eon-cmd-tools.git"
+    "url": "git+https://github.com/paolocappelletti/eon-cmd-tools.git"
   },
-  "author": "HorizenLabs",
+  "author": "Paolo Cappelletti",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HorizenOfficial/eon-cmd-tools/issues"
+    "url": "https://github.com/paolocappelletti/eon-cmd-tools/issues"
   },
-  "homepage": "https://github.com/HorizenOfficial/eon-cmd-tools#readme",
+  "homepage": "https://github.com/paolocappelletti/eon-cmd-tools#readme",
   "dependencies": {
     "axios": "^1.6.2",
     "bent": "^7.3.12",

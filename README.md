@@ -9,10 +9,7 @@ Command line tools to interact in a smart way with an Horizen EON Node
 **Prerequisite:** install node.js (tested with version >=16)
 
 ```
-mkdir <anyFolder>
-cd <anyFolder>
-git clone git@github.com:HorizenOfficial/eon-cmd-tools.git .
-npm install -g .
+npm install -g eon-cmd-tools
 ```
 
 After the installation just type 'eon' on a terminal to display an help of the available commands.
