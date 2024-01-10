@@ -78,6 +78,12 @@ module.exports = {
             "id":1
         };   
         return fetch(BASE_URL+'/ethv1', {method: "POST", body: JSON.stringify(body)});   
-    }
+    },
+    mcBest:  function(){
+        return fetch(BASE_URL+'/mainchain/bestBlockReferenceInfo', {method: "POST"});
+    },
+    mcGenesis:  function(){
+        return fetch(BASE_URL+'/mainchain/genesisBlockReferenceInfo', {method: "POST"});
+    },
 
 }

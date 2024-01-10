@@ -13,6 +13,8 @@ commands.push(require("./commands/eth/eth_blockNumber.js"));
 commands.push(require("./commands/transaction/find.js"));
 commands.push(require("./commands/eth/eth_gasPrice.js"));
 commands.push(require("./commands/eth/eth_chainId.js"));
+commands.push(require("./commands/mainchain/best.js"));
+commands.push(require("./commands/mainchain/genesis.js"));
 
 var arguments = (process.argv.length > 2) ? process.argv.slice(2) : [];
 

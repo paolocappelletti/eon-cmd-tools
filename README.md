@@ -1,4 +1,4 @@
-# EON Command line tools
+# EON Command line tools - version 1.1.0
 
 Command line tools to interact in a smart way with an Horizen EON Node
 
@@ -8,8 +8,15 @@ Command line tools to interact in a smart way with an Horizen EON Node
 
 **Prerequisite:** install node.js (tested with version >=16)
 
+First install:
+
 ```
 npm install -g eon-cmd-tools
+```
+If you have previously installed the tools, type this to update to the latest version:
+
+```
+npm update -g eon-cmd-tools
 ```
 
 After the installation just type 'eon' on a terminal to display an help of the available commands.
@@ -40,5 +47,7 @@ Following commands require other EON http endpoints reachable:
   node info                      => display node information
   wallet keys|allPublicKeys      => list all public keys of the node
   wallet balance                 => list balance on the node wallet
+  mc best                        => shows the most recent mainchain block reference included in the sidechain
+  mc genesis                     => shows info about the mainchain block containing the transaction that created this sidechain
 ```
 
