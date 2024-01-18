@@ -28,7 +28,6 @@ module.exports = {
             "params":[hex,true],
             "id":1
         };
-        console.log(body);
         return fetch(BASE_URL+'/ethv1', {method: "POST", body: JSON.stringify(body)});
     }, 
     blockFindByIdRPC: function(id){

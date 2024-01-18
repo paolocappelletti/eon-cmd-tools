@@ -15,7 +15,7 @@ module.exports = {
         if (searchQuery.length < 20 && searchQuery.length>2 && searchQuery.substring(0,2) == '0x'){
             //height in hex format
             netcalls.blockFindByHeightRPC(searchQuery).then(res => res.text()).then( text => console.log(text));
-        }if (searchQuery.length < 10 && isInt(searchQuery)){
+        }else if (searchQuery.length < 10 && isInt(searchQuery)){
             //height in decimal 
             netcalls.blockFindByHeightRPC( web3utils.numberToHex(searchQuery)).then(res => res.text()).then( text => console.log(text));
         }else{
