@@ -1,4 +1,4 @@
-# EON Command line tools - version 1.1.0
+# EON Command line tools - version 1.2.0
 
 Command line tools to interact in a smart way with an Horizen EON Node
 
@@ -23,6 +23,7 @@ After the installation just type 'eon' on a terminal to display an help of the a
 You will get this help:
 
 ```
+
 usage: eon <command> <subcommand>
 
 Available commands and subcommands:
@@ -35,6 +36,8 @@ Available commands and subcommands:
                                       url set mainnet -> shortcut to: url set https://eon-rpc.horizenlabs.io
 Following commands require the endpoint /ethv1 reachable:
   eth_block best|tip             => shows the most recent block by using standard eth rpc calls
+  eth_block find <str>           => Find a block by heigth or hash using eth RPC call
+                                    (if <str> represents an integer (decimal or hex (0x...)), will search by height, otherwise by hash)
   eth_blockNumber                => shows the most recent block number
   transaction find <str>         => Find a transaction by hash
   eth_gasPrice                   => Perform an eth_gasPrice call and display the price in decimal format
@@ -49,5 +52,6 @@ Following commands require other EON http endpoints reachable:
   wallet balance                 => list balance on the node wallet
   mc best                        => shows the most recent mainchain block reference included in the sidechain
   mc genesis                     => shows info about the mainchain block containing the transaction that created this sidechain
+ /z/s/h/eontest  eon eth_gasPrice 
 ```
 

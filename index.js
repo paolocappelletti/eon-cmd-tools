@@ -9,6 +9,7 @@ commands.push(require("./commands/node/info.js"));
 commands.push(require("./commands/wallet/keys.js"));
 commands.push(require("./commands/wallet/balance.js"));
 commands.push(require("./commands/eth/eth_block.js"));
+commands.push(require("./commands/eth/find.js"));
 commands.push(require("./commands/eth/eth_blockNumber.js"));
 commands.push(require("./commands/transaction/find.js"));
 commands.push(require("./commands/eth/eth_gasPrice.js"));

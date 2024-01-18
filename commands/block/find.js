@@ -19,7 +19,7 @@ module.exports = {
                 }   
             );  
         }else{
-            netcalls.blockFindById2(searchQuery).then(res => res.text()).then( text => console.log(text));
+            netcalls.blockFindById(searchQuery).then(res => res.text()).then( text => console.log(text));
         }
     }
 }

@@ -21,7 +21,17 @@ module.exports = {
         var body = {blockId: id};
         return fetch(BASE_URL+'/block/findById', {method: "POST", body: JSON.stringify(body)});
     }, 
-    blockFindById2: function(id){
+    blockFindByHeightRPC: function(hex){
+        var body = {
+            "jsonrpc":"2.0",
+            "method":"eth_getBlockByNumber",
+            "params":[hex,true],
+            "id":1
+        };
+        console.log(body);
+        return fetch(BASE_URL+'/ethv1', {method: "POST", body: JSON.stringify(body)});
+    }, 
+    blockFindByIdRPC: function(id){
         var body = {
             "jsonrpc":"2.0",
             "method":"eth_getBlockByHash",

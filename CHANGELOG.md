@@ -1,4 +1,7 @@
 # Changelog
+## 1.2.0
+* Added eth_block find
+
 ## 1.1.0
 * Added mc commands 
 
