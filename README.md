@@ -52,6 +52,5 @@ Following commands require other EON http endpoints reachable:
   wallet balance                 => list balance on the node wallet
   mc best                        => shows the most recent mainchain block reference included in the sidechain
   mc genesis                     => shows info about the mainchain block containing the transaction that created this sidechain
- /z/s/h/eontest  eon eth_gasPrice 
 ```
 
