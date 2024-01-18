@@ -1,4 +1,4 @@
-# EON Command line tools - version 1.2.0
+# EON Command line tools - version 1.2.1
 
 Command line tools to interact in a smart way with an Horizen EON Node
 

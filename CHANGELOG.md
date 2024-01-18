@@ -1,4 +1,7 @@
 # Changelog
+## 1.2.1
+* minor bugfix release
+
 ## 1.2.0
 * Added eth_block find
 
